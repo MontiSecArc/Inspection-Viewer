@@ -6,9 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "asyncawait": "^1.0.6",
-    "bluebird": "latest",
-    "body-parser": "~1.15.2",
+   "body-parser": "~1.15.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.2.0",
     "express": "~4.14.0",
@@ -18,6 +16,7 @@
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0",
     "xml2js": "^0.4.17",
-    "xml2json": "^0.10.0"
+    "mkdirp": "latest",
+    "multer": "latest"
   }
 }
