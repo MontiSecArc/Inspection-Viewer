@@ -1,0 +1,457 @@
+
+<problems is_local_tool="true">
+<problem>
+  <file>file://$PROJECT_DIR$/src/de/montisecarc/protocols/Proto.secarc</file>
+  <line>13</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/de/montisecarc/protocols/Proto.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/de/montisecarc/extendsLanguage/C.secarc</file>
+  <line>5</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/de/montisecarc/extendsLanguage/C.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/be/Bank.secarc</file>
+  <line>10</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/be/Bank.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/be/Bank.secarc</file>
+  <line>11</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/be/Bank.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/de/montisecarc/identityEncryption/EncryptStrongComponentInstanceIdentity.secarc</file>
+  <line>15</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/de/montisecarc/identityEncryption/EncryptStrongComponentInstanceIdentity.secarc" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Policy Check</problem_class>
+  <description>Possible Client Tampering</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>13</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>14</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>15</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>16</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>17</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>18</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>20</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>21</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>22</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>23</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>24</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>25</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>27</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/ClientTampering.secarc</file>
+  <line>13</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/ClientTampering.secarc" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Policy Check</problem_class>
+  <description>Possible Client Tampering</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>16</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>17</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>19</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>28</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>30</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>33</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>34</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>39</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>40</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/CashDeskSystemTrustLevel.secarc</file>
+  <line>17</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/CashDeskSystemTrustLevel.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/CashDeskSystemTrustLevel.secarc</file>
+  <line>18</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/CashDeskSystemTrustLevel.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/de/montisecarc/identityEncryption/EncryptWeakComponentInstanceIdentity.secarc</file>
+  <line>15</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/de/montisecarc/identityEncryption/EncryptWeakComponentInstanceIdentity.secarc" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Policy Check</problem_class>
+  <description>Possible Client Tampering</description>
+</problem></problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/de/montisecarc/protocols/Proto.secarc</file>
+  <line>13</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/de/montisecarc/protocols/Proto.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/de/montisecarc/extendsLanguage/A.secarc</file>
+  <line>5</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/de/montisecarc/extendsLanguage/A.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/de/montisecarc/identityEncryption/EncryptWeakComponentInstanceIdentity.secarc</file>
+  <line>15</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/de/montisecarc/identityEncryption/EncryptWeakComponentInstanceIdentity.secarc" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Policy Check</problem_class>
+  <description>Possible Client Tampering</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/be/Bank.secarc</file>
+  <line>10</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/be/Bank.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/be/Bank.secarc</file>
+  <line>11</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/be/Bank.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/de/montisecarc/identityEncryption/EncryptStrongComponentInstanceIdentity.secarc</file>
+  <line>15</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/de/montisecarc/identityEncryption/EncryptStrongComponentInstanceIdentity.secarc" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Policy Check</problem_class>
+  <description>Possible Client Tampering</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/ClientTampering.secarc</file>
+  <line>13</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/ClientTampering.secarc" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Policy Check</problem_class>
+  <description>Possible Client Tampering</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>13</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>14</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>15</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>16</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>17</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>18</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>20</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>21</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>22</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>23</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>24</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>25</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc</file>
+  <line>27</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/CashDesk.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>16</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>17</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>19</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>28</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>30</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>33</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>34</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>39</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc</file>
+  <line>40</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/fe/Store.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/CashDeskSystemTrustLevel.secarc</file>
+  <line>17</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/CashDeskSystemTrustLevel.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/secarc/seccds/CashDeskSystemTrustLevel.secarc</file>
+  <line>18</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/secarc/seccds/CashDeskSystemTrustLevel.secarc" />
+  <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Policy Check</problem_class>
+  <description>Port is unused</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/de/montisecarc/identityEncryption/EncryptMultipleStrongComponentInstanceIdentity.secarc</file>
+  <line>17</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/de/montisecarc/identityEncryption/EncryptMultipleStrongComponentInstanceIdentity.secarc" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Policy Check</problem_class>
+  <description>Possible Client Tampering</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/de/montisecarc/identityEncryption/EncryptMultipleStrongComponentInstanceIdentity.secarc</file>
+  <line>18</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/de/montisecarc/identityEncryption/EncryptMultipleStrongComponentInstanceIdentity.secarc" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Policy Check</problem_class>
+  <description>Possible Client Tampering</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/de/montisecarc/identityEncryption/EncryptMultipleStrongComponentInstanceIdentity.secarc</file>
+  <line>19</line>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/de/montisecarc/identityEncryption/EncryptMultipleStrongComponentInstanceIdentity.secarc" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Policy Check</problem_class>
+  <description>Possible Client Tampering</description>
+</problem></problems></problems>
