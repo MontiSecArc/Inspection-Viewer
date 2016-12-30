@@ -1,0 +1,51 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+            <ul class="nav nav-sidebar">
+                {{#each projects}}
+                    <li><a href="/{{this}}">{{this}}</a></li>
+                {{/each}}
+            </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <h1 class="page-header">Inspections</h1>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                {{#each inspections}}
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                   aria-expanded="true" aria-controls="collapseOne">
+                                    Build: {{build_id}}
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                             aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <tr>
+                                            <th>File</th>
+                                            <th>Line</th>
+                                            <th>Severity</th>
+                                            <th>Description</th>
+                                        </tr>
+                                        {{#each problems.problem}}
+                                            <tr>
+                                                <td>{{{trimFileName file.[0]}}}</td>
+                                                <td>{{line.[0]}}</td>
+                                                <td class="problem-{{problem_class.0.$.severity}}">{{problem_class.0.$.severity}}</td>
+                                                <td>{{description.[0]}}</td>
+                                            </tr>
+                                        {{/each}}
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>

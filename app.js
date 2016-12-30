@@ -11,22 +11,22 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 
 var multer = require('multer');
-var storage =   multer.diskStorage({
+var storage = multer.diskStorage({
     destination: function (req, file, callback) {
         var name = req.body.CI_PROJECT_NAME;
         var now = new Date();
-        var date = now.getFullYear() + "" + (now.getMonth() + 1) + "" + now.getDate() ;
+        var date = now.getFullYear() + "" + (now.getMonth() + 1) + "" + now.getDate();
         var dir = __dirname + '/inspections/' + name + '/' + date;
 
-        ensureExists(dir, function(err) {
+        ensureExists(dir, function (err) {
 
-           if (err) {
+            if (err) {
 
-               callback(null, __dirname + "/temp")
-           } else {
+                callback(null, __dirname + "/temp")
+            } else {
 
-               callback(null, dir);
-           }
+                callback(null, dir);
+            }
         });
     },
     filename: function (req, file, callback) {
@@ -35,13 +35,20 @@ var storage =   multer.diskStorage({
         callback(null, buildId + ".xml");
     }
 });
-var upload = multer({ storage : storage}).single('inspection');
+var upload = multer({storage: storage}).single('inspection');
 
 var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
+var hbs = require('hbs');
+
+hbs.registerHelper('trimFileName', function (passedString) {
+    var theString = passedString.replace("file://$PROJECT_DIR$/", "");
+    return new hbs.SafeString(theString)
+});
+
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
@@ -68,8 +75,8 @@ function ensureExists(path, mask, cb) {
 }
 
 app.post('/upload', function (req, res, next) {
-    upload(req,res,function(err) {
-        if(err) {
+    upload(req, res, function (err) {
+        if (err) {
             return res.end("Error uploading file.");
         }
         res.end("File is uploaded");
@@ -95,3 +102,4 @@ app.use(function (err, req, res, next) {
 });
 
 module.exports = app;
+
