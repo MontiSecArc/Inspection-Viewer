@@ -1,25 +1,59 @@
 # Inspection Viewer
+![Bildschirmfoto_2017-01-11_um_10.19.53](/uploads/772b3d804553ca50517bf2ef98e2095a/Bildschirmfoto_2017-01-11_um_10.19.53.png)
 
-**Downloads**
+The inspection viewer is a small server which accepts inspection result XML from IntelliJ and visualizes them. The project is realized as a nodejs express service.
 
-[]() &#8226; []()
+**Currently Running on: http://138.68.110.165/**
 
 # Contents
 - [Quickstart](https://git.rwth-aachen.de/ma_buning/inspection_viewer/edit/master/README.md#quickstart)
-- [Install Plugin into IntelliJ Installation](https://git.rwth-aachen.de/ma_buning/inspection_viewer/edit/master/README.md#install_plugin_into_intelliJ_installation)
 
 # Quickstart
 1. Check-Out project:
 
-    `git clone https://git.rwth-aachen.de/ma_buning/inspection_viewer.git --remote --recursive`
-2. Import project into IntelliJ. Instructions can be found [here](https://www.jetbrains.com/help/idea/2016.3/importing-project-from-gradle-model.html).
-3. Run an IDEA instance with the MSA language plugins pre-installed:
-    1. Run/Debug `runIdea` from the gradle task list:
-    ![Bildschirmfoto_2017-01-10_um_18.28.47](/uploads/42199702a2114281e01fb246014049f6/Bildschirmfoto_2017-01-10_um_18.28.47.png)
+    `git clone https://git.rwth-aachen.de/ma_buning/inspection_viewer.git`
+2. Import the project into an IDE of your choosing.
+3. Run `node path_to_project/www.js``
+4. Open *localhost:3000*
 
-# Install Plugin into IntelliJ Installation
-The plugin requires IntelliJ Version [2016.X.X](https://www.jetbrains.com/idea/download/) to be installed.
+# Uploading a new Inspection Result
+Post a multi-form-data request to *http://server_url:port/upload* where:
+- CI_PROJECT_NAME represents the project for which the inspection was run (text)
+- CI_BUILD_ID represents an arbitrary atomic counting entity (text)
+- inspection represents the file that needs to be uploaded (file)
 
-Download the newest version of the plugin from [here](https://git.rwth-aachen.de/ma_buning/msa/builds/3094/artifacts/file/build/distributions/IntelliJ_MSA-0.7.7.SNAPSHOT.zip). Do not unzip the file, just open the IntelliJ preferences and locate "Plugins" from the left menu.
-![Bildschirmfoto_2016-11-11_um_09.38.51](/uploads/0f9753a98d856b1fbd45d482e6944796/Bildschirmfoto_2016-11-11_um_09.38.51.png)
-Click the "Install plugin from disk" button and select the downloaded zip file.
+
+## Example NodeJs Post Command
+Send the following request to the server (nodejs):
+
+```javascript
+var http = require("http");
+
+var options = {
+  "method": "POST",
+  "hostname": "138.68.110.165",
+  "port": null,
+  "path": "/upload",
+  "headers": {
+    "content-type": "multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW",
+    "cache-control": "no-cache",
+    "postman-token": "e9cd735b-5d65-1b44-2f04-35ee86883e2b"
+  }
+};
+
+var req = http.request(options, function (res) {
+  var chunks = [];
+
+  res.on("data", function (chunk) {
+    chunks.push(chunk);
+  });
+
+  res.on("end", function () {
+    var body = Buffer.concat(chunks);
+    console.log(body.toString());
+  });
+});
+
+req.write("------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"CI_PROJECT_NAME\"\r\n\r\nMSA_Demo\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"CI_BUILD_ID\"\r\n\r\n5\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"inspection\"; filename=\"GraphQuery.xml\"\r\nContent-Type: application/xml\r\n\r\n\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--");
+req.end();
+```
