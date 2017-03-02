@@ -1,17 +1,10 @@
 # Inspection Viewer
-![Bildschirmfoto_2017-01-11_um_10.19.53](/uploads/772b3d804553ca50517bf2ef98e2095a/Bildschirmfoto_2017-01-11_um_10.19.53.png)
-
 The inspection viewer is a small server which accepts inspection result XML from IntelliJ and visualizes them. The project is realized as a nodejs express service.
-
-**Currently Running on: http://138.68.110.165/**
-
-# Contents
-- [Quickstart](https://git.rwth-aachen.de/ma_buning/inspection_viewer/edit/master/README.md#quickstart)
 
 # Quickstart
 1. Check-Out project:
 
-    `git clone https://git.rwth-aachen.de/ma_buning/inspection_viewer.git`
+    `git clone https://github.com/MontiSecArc/Inspection-Viewer.git`
 2. Import the project into an IDE of your choosing.
 3. Run `node path_to_project/www.js``
 4. Open *localhost:3000*
@@ -31,7 +24,7 @@ var http = require("http");
 
 var options = {
   "method": "POST",
-  "hostname": "138.68.110.165",
+  "hostname": "##HOST##",
   "port": null,
   "path": "/upload",
   "headers": {
